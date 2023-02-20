@@ -1,0 +1,10 @@
+apple
+milk
+sun
+sea
+house
+forest
+fish
+pencil
+book
+table
