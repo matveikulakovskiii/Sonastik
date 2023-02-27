@@ -1,10 +1,10 @@
-apple
-milk
-sun
-sea
-house
-forest
-fish
-pencil
-book
-table
+Üles laadima
+Alla laadima
+Õpimapp
+Kopeerima
+Kleebima
+Salasõna
+Kasutaja nimi
+Sündmus
+Muutuja
+Andur

@@ -1,21 +1,21 @@
 from OmaModule import *
-rus=[]
-ang=[]
+
+laused=[]
 while True:
-    v=int(input(": "))
-    if v==1:
-        rus=loe_failist_rus('rus.txt')
-        for line in rus:
-            print(line)
+    est=finl('ang.txt');rus=finl('rus.txt')
+    menu=input("1-Sõnade tõlkimine \n2-Vaata sõnastikku \n3-Parandage viga sõnastikus:  ")
+    while menu.isdigit()==False:
+        menu=input("Kirjuta ainult need numbrid, mis on ")
         print()
-        ang=loe_failist_ang('ang.txt')
-        for line in ang:
-            print(line)
-    elif v==2:
-        rus=translate('rus.text')
-        for line in rus:
-            print(line)
-            print()
-        ang=translate('ang.text')
-        for line in ang:
-            print(line)
+        if menu=="1":
+            tolk(rus,est)
+        elif menu=="2":
+            laused=loe("rus.txt")
+            for line in laused:
+                print(line)
+                print()
+                laused=loe("ang.txt")
+                for line in laused:
+                    print(line)
+        elif menu=="3":
+            paranda("rus.txt","ang.txt") 
